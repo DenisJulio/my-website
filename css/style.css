@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Jacques+Francois&family=Kadwa&display=swap");
+body {
+  margin: 0;
+  background: #4E4848;
+}
+
+nav {
+  background-color: #434141;
+  width: 100%;
+  height: 85px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+nav span {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.7rem;
+  line-height: 85px;
+  color: #35CC5F;
+  margin: 50px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: auto 443px;
+  grid-template-rows: 664px 779px;
+}
+.main-container .left-column {
+  background: linear-gradient(170deg, #584C4C 10.94%, #5f4b48 100%);
+}
+.main-container .left-column .text-container {
+  margin: 136px 150px;
+}
+.main-container .left-column .text-container h1 {
+  font-family: "Kadwa", serif;
+  font-size: 4rem;
+  color: #D6CACA;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.main-container .left-column .text-container h2 {
+  font-family: "Jacques Francois", serif;
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+.main-container .bottom-row {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  background: linear-gradient(180deg, #4E4848 10.94%, #000000 100%);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  gap: 4rem;
+  align-items: center;
+}
+.main-container .bottom-row p {
+  margin: 0 25vw 3rem 25vw;
+  font-family: "Jacques Francois", serif;
+  font-size: 1.7rem;
+  color: #D6CACA;
+  text-align: center;
+}
+.main-container .bottom-row > img {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.contact-panel {
+  max-width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+.contact-panel img {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
